@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+body{ 
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2{
+    font-size: 3.5rem;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+}
+
+h3{
+    color: #66BFBF;
+    font-family: 'Merriweather', serif;
+    margin: 20px;
+}
+
+hr{
+    width: 5%;
+    border-style: dotted none none;
+    height: 2px;
+    border-width: 5px;
+    color: gray;
+    margin: 100px auto;
+}
+
+p{
+line-height: 2;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.top-cloud{
+position: absolute;
+right: 300px;
+top: 40px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+/* .title-text{
+    position: absolute;
+text-align: center;
+} */
+
+
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    background-size: cover;
+}
+
+.middle-container{
+    position: relative;
+    margin-top: 100px 0;
+}
+
+
+
+.skill-section{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+
+.profile{
+    width: 15%;
+
+}
+
+.designing{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.sports{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-msg{
+    width: 30%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #2612ff;
+    background-image: -webkit-linear-gradient(top, #2612ff, #2980b9);
+    background-image: -moz-linear-gradient(top, #2612ff, #2980b9);
+    background-image: -ms-linear-gradient(top, #2612ff, #2980b9);
+    background-image: -o-linear-gradient(top, #2612ff, #2980b9);
+    background-image: linear-gradient(to bottom, #2612ff, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #34e079;
+    background-image: -webkit-linear-gradient(top, #34e079, #0ff77b);
+    background-image: -moz-linear-gradient(top, #34e079, #0ff77b);
+    background-image: -ms-linear-gradient(top, #34e079, #0ff77b);
+    background-image: -o-linear-gradient(top, #34e079, #0ff77b);
+    background-image: linear-gradient(to bottom, #34e079, #0ff77b);
+    text-decoration: none;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 60px 0 20px;
+    margin-top: 100px;
+}
+
+a{
+    font-family: 'Merriweather', serif;
+    color: #11999E;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+a:hover{
+    color: #ffffff;
+}
+
+.copy-right{
+    color: #ffffff;
+}
+
+
